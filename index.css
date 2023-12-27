@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.main{
+    width:100%;
+    height:100vh;
+    background: url('Images/dbmsschoolpicture.jpg') center center;
+    background-size:cover;
+}
+
+/* To add shade on the background image. */
+.overlay{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;      /* To move the text in column wise manner. */
+    color:white;
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
+.title{
+    margin-top: 10px;
+    color:white;
+    text-align:center;
+    font-size: 2.5rem;
+}
+
+.col{
+    width:1000px;
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+    color:white;
+}
+
+.col div{
+    width:250px;
+    text-align:center;
+}
+input{
+    height:50px;
+    width:60%;
+    background-color:rgba(255, 255, 255, 0.9);
+    border-color:transparent;
+    border-radius:5px;
+    text-align:center;
+    font-size:20px;
+}
